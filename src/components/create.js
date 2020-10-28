@@ -38,7 +38,7 @@ export class Create extends React.Component { //extending react class Component
     //sends alert to show user entered movies details
     onSubmit(e) {
         e.preventDefault();//stop you calling button multiple times
-        alert("Movie Added " + this.state.Title + " "+ this.state.Year+ " " + this.state.Poster);/
+        alert("Movie Added " + this.state.Title + " "+ this.state.Year+ " " + this.state.Poster);
     }
 
     //in this function we created a form which has 3 text boxes for user
